@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+
+
+body{
+    background-color: coral;
+    animation-name: wall;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  } 
+  @keyframes wall {
+    0% {
+      background-color:blueviolet;
+      
+    }
+    25% {
+        background-color:cornflowerblue;
+      }
+    50% {
+      background-color:blue;
+    
+    }
+    75% {
+        background-color:purple;
+        
+      }
+    100% {
+      background-color:violet;
+    }
+  }
+
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .header{
+    
+    padding:8px;
+    background-color: rgba(137, 43, 226, 0.123);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  h1{ text-align: center;
+    font-size: 35px;
+    color:blanchedalmond;
+  }
+  
+  
+  img{
+   width: 700px;
+   height: fit-content;
+  }
+
+  #button{
+    background-color: rgba(137, 43, 226, 0.247);
+    padding-left: 80px;
+    padding-right: 80px;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 50px;
+
+  }
+button{
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border:2px solid black;
+  background-color:blanchedalmond;
+  font-size: 20px;
+ 
+}
+
+  
+
+
+
+
+  
