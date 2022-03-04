@@ -30,47 +30,47 @@ const audioTom =document.getElementById("audioTom")
 
 // mouse click
 boom.addEventListener("click", () => {
-	audioBoom.src = "boom.wav";
+	audioBoom.src = "./sounds/boom.wav";
 
 });
 clap.addEventListener("click", () => {
-	audioClap.src = "clap.wav";
+	audioClap.src = "./sounds/clap.wav";
 });
 hihat.addEventListener("click", () => {
-	audioHihat.src = "hihat.wav";
+	audioHihat.src = "./sounds/hihat.wav";
 });
 
 kick.addEventListener("click", () => {
-	audioKick.src = "kick.wav";
+	audioKick.src = "./sounds/kick.wav";
 });
 openHat.addEventListener("click", () => {
-	audioOpen.src = "openhat.wav";
+	audioOpen.src = "./sounds/openhat.wav";
 });
 ride.addEventListener("click", () => {
-	audioRide.src = "ride.wav";
+	audioRide.src = "./sounds/ride.wav";
 });
 snare.addEventListener("click", () => {
-	audioSnare.src = "snare.wav";
+	audioSnare.src = "./sounds/snare.wav";
 });
 tink.addEventListener("click", () => {
-	audioTink.src = "tink.wav";
+	audioTink.src = "./sounds/tink.wav";
 });
 tom.addEventListener("click", () => {
-	audioTom.src = "tom.wav";
+	audioTom.src = "./sounds/tom.wav";
 });
 // key is not press 
 
 document.addEventListener("keyup", () => {
-    boom.style.backgroundColor = "blanchedalmond";
-    clap.style.backgroundColor = "blanchedalmond";
-	hihat.style.backgroundColor = "blanchedalmond";
-	kick.style.backgroundColor = "blanchedalmond";
-	openHat.style.backgroundColor = "blanchedalmond";
-	ride.style.backgroundColor = "blanchedalmond";
-	snare.style.backgroundColor = "blanchedalmond";
-	tom.style.backgroundColor = "blanchedalmond";
-	tink.style.backgroundColor = "blanchedalmond";
-     header.style.color = "blanchedalmond";
+    boom.style.backgroundColor = "burlywood";
+    clap.style.backgroundColor = "burlywood";
+	hihat.style.backgroundColor = "burlywood";
+	kick.style.backgroundColor = "burlywood";
+	openHat.style.backgroundColor = "burlywood";
+	ride.style.backgroundColor = "burlywood";
+	snare.style.backgroundColor = "burlywood";
+	tom.style.backgroundColor = "burlywood";
+	tink.style.backgroundColor = "burlywood";
+     header.style.color = "burlywoodd";
  
 
   
@@ -80,7 +80,7 @@ document.addEventListener("keyup", () => {
 
 document.addEventListener("keypress",(event) =>{
     if (event.key === "a" || event.key ===  "A"){
-       audioBoom.src="boom.wav";
+       audioBoom.src="./sounds/boom.wav";
        boom.style.backgroundColor = "#3B62B1";
        header.style.color = "pink";
      
@@ -89,56 +89,56 @@ document.addEventListener("keypress",(event) =>{
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "s" || event.key ===  "S"){
-        audioClap.src="clap.wav";
+        audioClap.src="./sounds/clap.wav";
         clap.style.backgroundColor = "#3B62B1";
         header.style.color = "crimson";
     }
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "d" || event.key ===  "D"){
-        audioHihat.src="hihat.wav";
+        audioHihat.src="./sounds/hihat.wav";
         hihat.style.backgroundColor = "#3B62B1";
         header.style.color = "yellow";
 	}
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "f" || event.key ===  "F"){
-        audioKick.src="kick.wav";
+        audioKick.src="./sounds/kick.wav";
         kick.style.backgroundColor = "#3B62B1";
         header.style.color = "blue";
 	}
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "g" || event.key ===  "G"){
-        audioOpen.src="openhat.wav";
+        audioOpen.src="./sounds/openhat.wav";
         openHat.style.backgroundColor = "#3B62B1";
         header.style.color = "green";
 	}
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "h" || event.key ===  "H"){
-        audioRide.src="ride.wav";
+        audioRide.src="./sounds/ride.wav";
         ride.style.backgroundColor = "#3B62B1";
         header.style.color = "purple";
 	}
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "j" || event.key ===  "J"){
-        audioSnare.src="snare.wav";
+        audioSnare.src="./sounds/snare.wav";
         snare.style.backgroundColor = "#3B62B1";
         header.style.color = "red";
 	}
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "k" || event.key ===  "K"){
-        audioTink.src="tink.wav";
+        audioTink.src="./sounds/tink.wav";
         tink.style.backgroundColor = "#3B62B1";
         header.style.color = "orange";
 	}
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "l" || event.key ===  "L"){
-        audioTom.src="tom.wav";
+        audioTom.src="./sounds/tom.wav";
         tom.style.backgroundColor = "#3B62B1";
         header.style.color = "blue";
     }    
