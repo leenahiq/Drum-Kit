@@ -8,15 +8,14 @@
 
 body {
   background: radial-gradient(#e18174, #d15746);
-  animation-name: wall;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+  
 }
 
-.wrapper {
+.container{
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
+ 
   flex-wrap: wrap;
 }
 .header {
