@@ -1,4 +1,4 @@
-const header =document.getElementById("header");
+const h1 =document.querySelector("h1");
 const button = document.getElementById("buttons")
 
 //asigning variable to all button
@@ -61,6 +61,7 @@ tom.addEventListener("click", () => {
 // key is not press 
 
 document.addEventListener("keyup", () => {
+    
     boom.style.backgroundColor = "burlywood";
     clap.style.backgroundColor = "burlywood";
 	hihat.style.backgroundColor = "burlywood";
@@ -70,7 +71,12 @@ document.addEventListener("keyup", () => {
 	snare.style.backgroundColor = "burlywood";
 	tom.style.backgroundColor = "burlywood";
 	tink.style.backgroundColor = "burlywood";
-     header.style.color = "burlywoodd";
+
+
+    h1.style.color = "burlywood"
+    h1.style.fontSize ="35px"
+    
+    
  
 
   
@@ -82,7 +88,9 @@ document.addEventListener("keypress",(event) =>{
     if (event.key === "a" || event.key ===  "A"){
        audioBoom.src="./sounds/boom.wav";
        boom.style.backgroundColor = "#3B62B1";
-       header.style.color = "pink";
+       h1.style.color = "red";
+       h1.style.fontSize = "40px"
+
      
 
 	}
@@ -91,55 +99,71 @@ document.addEventListener("keypress",(event) =>{
     if (event.key === "s" || event.key ===  "S"){
         audioClap.src="./sounds/clap.wav";
         clap.style.backgroundColor = "#3B62B1";
-        header.style.color = "crimson";
+        h1.style.color = "green";
+       h1.style.fontSize = "40px"
+      
     }
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "d" || event.key ===  "D"){
         audioHihat.src="./sounds/hihat.wav";
         hihat.style.backgroundColor = "#3B62B1";
-        header.style.color = "yellow";
+        h1.style.color = "orange";
+       h1.style.fontSize = "40px"
+    
 	}
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "f" || event.key ===  "F"){
         audioKick.src="./sounds/kick.wav";
         kick.style.backgroundColor = "#3B62B1";
-        header.style.color = "blue";
+        h1.style.color = "blue";
+       h1.style.fontSize = "40px"
+    
 	}
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "g" || event.key ===  "G"){
         audioOpen.src="./sounds/openhat.wav";
         openHat.style.backgroundColor = "#3B62B1";
-        header.style.color = "green";
+        h1.style.color = "purple";
+       h1.style.fontSize = "40px"
+      
 	}
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "h" || event.key ===  "H"){
         audioRide.src="./sounds/ride.wav";
         ride.style.backgroundColor = "#3B62B1";
-        header.style.color = "purple";
+        h1.style.color = "blue";
+       h1.style.fontSize = "40px"
+       
 	}
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "j" || event.key ===  "J"){
         audioSnare.src="./sounds/snare.wav";
         snare.style.backgroundColor = "#3B62B1";
-        header.style.color = "red";
+        h1.style.color = "yellow";
+       h1.style.fontSize = "40px"
+     
 	}
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "k" || event.key ===  "K"){
         audioTink.src="./sounds/tink.wav";
         tink.style.backgroundColor = "#3B62B1";
-        header.style.color = "orange";
+        h1.style.color = "pink";
+       h1.style.fontSize = "40px"
+     
 	}
 });
     document.addEventListener("keypress",(event) =>{
     if (event.key === "l" || event.key ===  "L"){
         audioTom.src="./sounds/tom.wav";
         tom.style.backgroundColor = "#3B62B1";
-        header.style.color = "blue";
+        h1.style.color = "brown";
+       h1.style.fontSize = "40px"
+     
     }    
 });
