@@ -70,54 +70,92 @@ document.addEventListener("keyup", () => {
 
   h1.style.color = "burlywood";
   h1.style.fontSize = "35px";
+  boom.style.color = "black";
+  boom.style.border = " 2px solid black";
+  clap.style.color = "black";
+  clap.style.border = " 2px solid black";
+  hihat.style.color = "black";
+  hihat.style.border = " 2px solid black";
+  kick.style.color = "black";
+  kick.style.border = " 2px solid black";
+  openHat.style.color = "black";
+  openHat.style.border = " 2px solid black";
+  ride.style.color = "black";
+  ride.style.border = " 2px solid black";
+  snare.style.color = "black";
+  snare.style.border = " 2px solid black";
+  tink.style.color = "black";
+  tink.style.border = " 2px solid black";
+  tom.style.color = "black";
+  tom.style.border = " 2px solid black";
 });
 //KEY PRESS
 
 document.addEventListener("keypress", (event) => {
   if (event.key === "a" || event.key === "A") {
     audioBoom.src = "./sounds/boom.wav";
-    boom.style.backgroundColor = "#3B62B1";
-    h1.style.color = "red";
+    boom.style.backgroundColor = "black";
+    h1.style.color = "black";
+    boom.style.color = "goldenrod";
+    boom.style.border = " 4px solid goldenrod";
     h1.style.fontSize = "40px";
   } else if (event.key === "s" || event.key === "S") {
     audioClap.src = "./sounds/clap.wav";
-    clap.style.backgroundColor = "#3B62B1";
-    h1.style.color = "green";
+    clap.style.backgroundColor = "black";
+    h1.style.color = "black";
+    clap.style.color = "goldenrod";
+    clap.style.border = " 4px solid goldenrod";
     h1.style.fontSize = "40px";
   } else if (event.key === "d" || event.key === "D") {
     audioHihat.src = "./sounds/hihat.wav";
-    hihat.style.backgroundColor = "#3B62B1";
-    h1.style.color = "orange";
+    hihat.style.backgroundColor = "black";
+    h1.style.color = "black";
+    hihat.style.color = "goldenrod";
+    hihat.style.border = " 4px solid goldenrod";
     h1.style.fontSize = "40px";
   } else if (event.key === "f" || event.key === "F") {
     audioKick.src = "./sounds/kick.wav";
-    kick.style.backgroundColor = "#3B62B1";
-    h1.style.color = "blue";
+    kick.style.backgroundColor = "black";
+    h1.style.color = "black";
+    kick.style.color = "goldenrod";
+    kick.style.border = " 4px solid goldenrod";
     h1.style.fontSize = "40px";
   } else if (event.key === "g" || event.key === "G") {
     audioOpen.src = "./sounds/openhat.wav";
-    openHat.style.backgroundColor = "#3B62B1";
-    h1.style.color = "purple";
+    openHat.style.backgroundColor = "black";
+    h1.style.color = "black";
+    openHat.style.color = "goldenrod";
+    openHat.style.border = " 4px solid goldenrod";
     h1.style.fontSize = "40px";
   } else if (event.key === "h" || event.key === "H") {
     audioRide.src = "./sounds/ride.wav";
-    ride.style.backgroundColor = "#3B62B1";
-    h1.style.color = "blue";
+    ride.style.backgroundColor = "black";
+    h1.style.color = "black";
+    ride.style.color = "goldenrod";
+    ride.style.border = " 4px solid goldenrod";
     h1.style.fontSize = "40px";
   } else if (event.key === "j" || event.key === "J") {
     audioSnare.src = "./sounds/snare.wav";
-    snare.style.backgroundColor = "#3B62B1";
-    h1.style.color = "yellow";
+    snare.style.backgroundColor = "black";
+    snare.style.color = "goldenrod";
+    snare.style.border = " 4px solid goldenrod";
+    h1.style.color = "black";
     h1.style.fontSize = "40px";
   } else if (event.key === "k" || event.key === "K") {
     audioTink.src = "./sounds/tink.wav";
-    tink.style.backgroundColor = "#3B62B1";
-    h1.style.color = "pink";
+    tink.style.backgroundColor = "black";
+    h1.style.color = "black";
+    tink.style.color = "goldenrod";
+    tink.style.border = " 4px solid goldenrod";
     h1.style.fontSize = "40px";
   } else if (event.key === "l" || event.key === "L") {
     audioTom.src = "./sounds/tom.wav";
-    tom.style.backgroundColor = "#3B62B1";
-    h1.style.color = "brown";
+    tom.style.backgroundColor = "black";
+    h1.style.color = "balck";
+    tom.style.color = "goldenrod";
+    tom.style.border = " 4px solid goldenrod";
     h1.style.fontSize = "40px";
+  } else {
+    h1.style.color = "black";
   }
 });
