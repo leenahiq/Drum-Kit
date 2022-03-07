@@ -151,7 +151,7 @@ document.addEventListener("keypress", (event) => {
   } else if (event.key === "l" || event.key === "L") {
     audioTom.src = "./sounds/tom.wav";
     tom.style.backgroundColor = "black";
-    h1.style.color = "balck";
+    h1.style.color = "black";
     tom.style.color = "goldenrod";
     tom.style.border = " 4px solid goldenrod";
     h1.style.fontSize = "40px";
